@@ -9,45 +9,28 @@
 
 # String data types and common String Methods
 
-# Most Important String Methods
+# The Keyword None
 
-y = "    This is lazy \t\n   "
-print("\ny = ", y)
+print("\ndef f():\n\tx = 2")
+print("Since there is no return, the value of f() is None")
 
-print("print(y.strip()")
-print(y.strip())
-# Remove Whitespace: 'This is lazy'
 
-print("\n(print('DrDre'.lower())")
-print("DrDre".lower())
-# Lowercase: 'drdre'
+def f():
+    x = 2
 
-print('\nprint("smartphone".startswith("smart"))')
-print("smartphone".startswith("smart"))
-# Matches the string's prefix against the argument: True
 
-print('\nprint("smartphone".endswith("phone"))')
-print("smartphone".endswith("phone"))
-# Matches the string's suffix against the argument: True
+# The Keyword 'is' will be introduced next
+print("\nprint(f() is None)")
+print("Result is 'True'")
+print(f() is None)
 
-print('\nprint("another".find("other"))')
-print("another".find("other"))
-# Match index: 2
 
-print('\nprint("cheat".replace("ch", "m"))')
-print("cheat".replace("ch", "m"))
-# Replace all occurrences of the first argument with the second argument: meat
+print("\nprint('""' == None)")
+print("Result is 'False'")
+print("" == None)
 
-print('\nprint(".".join(["F", "B", "I", " "]))')
-print(".".join(["F", "B", "I", " "]))
-# Glues together all elements in the list using the seperator string: F.B.I.
 
-print('\nprint(len("Rumpelstiltskin"))')
-print(len("Rumpelstiltskin"))
-# String length: 15
-
-print('\nprint("ear" in "earth")')
-print("ear" in "earth")
-# Contains: True
-
+print("\nprint(0 == None)")
+print("Result is 'False'")
+print(0 == None)
 
